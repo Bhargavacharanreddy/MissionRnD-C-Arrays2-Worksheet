@@ -37,7 +37,6 @@ int strcmpfromitoj(char *str1, char *str2, int i, int j)
 	int n1, n2;
 	n1 = toNum(str1, i, j);
 	n2 = toNum(str2, i, j);
-	//printf("%d %d\n",n1,n2);
 	if (n2>n1)
 		return 1;
 	else
